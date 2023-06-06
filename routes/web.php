@@ -15,39 +15,39 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('index');
+    return view('index', ['title' => 'Harmon-ai-ze']);
 });
 
 Route::get('/studying', function () {
-    return view('Studying');
+    return view('Studying', ['title' => 'Studying']);
 });
 
 Route::get('/editing-and-design', function () {
-    return view('Editing');
+    return view('Editing', ['title' => 'Editing and Design']);
 });
 
 Route::get('/presentations', function () {
-    return view('Presentation');
+    return view('Presentation', ['title' => 'Presentations']);
 });
 
 Route::get('/coding', function () {
-    return view('Coding');
+    return view('Coding', ['title' => 'Coding']);
 });
 
 Route::get('/dubbing-and-subtitling', function () {
-    return view('Dubbing');
+    return view('Dubbing', ['title' => 'Dubbing and Subtitling']);
 });
 
 Route::get('/business', function () {
-    return view('Business');
+    return view('Business', ['title' => 'Business']);
 });
 
 Route::get('/entertainment', function () {
-    return view('Entertainment');
+    return view('Entertainment', ['title' => 'Entertainment']);
 });
 
 Route::get('/content-creators', function () {
-    return view('ContentCreators');
+    return view('ContentCreators', ['title' => 'Content Creators']);
 });
 
 

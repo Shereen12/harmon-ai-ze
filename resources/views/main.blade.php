@@ -6,7 +6,7 @@
         <link href="/dist/output.css" rel="stylesheet">
         @vite('resources/css/app.css')
 
-        <title>Laravel</title>
+        <title>{{$title}}</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
