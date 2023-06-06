@@ -22,6 +22,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@600&family=Lato:ital,wght@0,300;1,100;1,300;1,700&family=Oswald:wght@200;700&display=swap" rel="stylesheet">    <body>
         <div class="container mx-auto">
             <header>
+                <div id="hamburger-menu" class="hidden bg-blue-900 w-full h-screen p-5">
+                    <img src="./pictures/close.png" onclick="closeSideMenu()"/>
+                    <ul class="text-white p-10 w-full">
+                        <li class="p-2 border-b border-white">Latest</li>
+                        <li class="p-2 border-b border-white">Popular</li>
+                        <li id="categories-listItem" class="p-2" onclick="displayCategories('categories-listItem', 'hamburger')">Categories <img id="arrow" src="./pictures/arrow-down.png" class="float-right" onclick="rotateIcon()"/></li>
+                    </ul>
+            </div>
                 <div id="hamburger" class="hidden p-2 max-[768px]:flex" onclick="displayHumburgerMenu()">
                     <div class="mt-2">
                         <div class="w-7 border-b border-blue-900 m-2"></div>
@@ -45,7 +53,7 @@
                     </ul>
                 </nav>
             </header>
-            <div class="p-4"> 
+            <div id="content" class="p-4"> 
                 @yield('content')
             </div>
         </div>

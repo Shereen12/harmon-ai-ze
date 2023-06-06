@@ -99,18 +99,13 @@ function hideCategories(calledFrom) {
 }
 
 function displayHumburgerMenu() {
-    $("body").prepend(
-        `<div id="hamburger-menu" class="bg-blue-900 w-full h-screen p-5">
-            <img src="./pictures/close.png" onclick="closeSideMenu()"/>
-            <ul class="text-white p-10 w-full">
-                <li class="p-2 border-b border-white">Latest</li>
-                <li class="p-2 border-b border-white">Popular</li>
-                <li id="categories-listItem" class="p-2" onclick="displayCategories('categories-listItem', 'hamburger')">Categories <img id="arrow" src="./pictures/arrow-down.png" class="float-right" onclick="rotateIcon()"/></li>
-            </ul>
-    </div>`
-    );
+    $("#hamburger-menu").show();
+    $("#content").hide();
+    $("#hamburger").hide();
 }
 
 function closeSideMenu() {
-    $("#hamburger-menu").remove();
+    $("#hamburger-menu").hide();
+    $("#content").show();
+    $("#hamburger").show();
 }
