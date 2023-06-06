@@ -626,6 +626,10 @@ video {
   height: 100vh;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-11\/12 {
   width: 91.666667%;
 }
@@ -701,6 +705,26 @@ video {
 .bg-blue-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(30 58 138 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\.\/\.\.\/\.\.\/public\/pictures\/main-page\.jpeg\'\)\] {
+  background-image: url('./../../public/pictures/main-page.jpeg');
+}
+
+.bg-\[url\(\'\.\.\/public\/pictures\/main-page\.jpeg\'\)\] {
+  background-image: url('../public/pictures/main-page.jpeg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/public\/pictures\/main-page\.jpeg\'\)\] {
+  background-image: url('../../public/pictures/main-page.jpeg');
+}
+
+.bg-\[url\(\'\.\/pictures\/main-page\.jpeg\'\)\] {
+  background-image: url('./pictures/main-page.jpeg');
+}
+
+.bg-\[url\(\'\/pictures\/main-page\.jpeg\'\)\] {
+  background-image: url('/pictures/main-page.jpeg');
 }
 
 .p-10 {

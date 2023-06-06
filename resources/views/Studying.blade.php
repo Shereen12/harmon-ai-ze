@@ -9,7 +9,7 @@
     </div>
 
     <div class="lg:m-4 lg:flex mb-4">
-        <div class="lg:w-1/3 w-11/12 max-w-lg h-80 border border-gray-300 rounded-lg p-4 m-4 bg-blue-900">
+        <div class="lg:w-1/3 w-11/12  h-80 border border-gray-300 rounded-lg p-4 m-4 bg-blue-900">
             <div class="relative top-1/4">
                 <a class="underline underline-offset-8 text-white text-2xl" href="https://timelyapp.com/">Timely</a>
                 <p class="mt-4 text-xl text-right font-cairo text-white">أفضل متتبع وقت آلي يعمل بالذكاء الاصطناعي في العالم</p>
@@ -55,7 +55,7 @@
 
     <div class="lg:m-4 lg:flex mb-4">
         
-        <div class="lg:w-1/3 w-11/12 h-max max-w-lg	lg:h-max border border-gray-300 rounded-lg p-4 m-4 bg-blue-900">
+        <div class="lg:w-1/3 w-11/12 h-max 	lg:h-max border border-gray-300 rounded-lg p-4 m-4 bg-blue-900">
             <a class="underline underline-offset-8 text-2xl text-white"   href="https://www.querium.com/">Queirum</a>
             <p class="mt-4 text-right font-cairo text-xl text-white">تعتمد الموقع على التعليمات الفردية والممارسة الموجهة، ممكن تستخدام مدرس افتراضي يعمل بالذكاء الاصطناعي إلى تعزيز نتائج التعلم في جميع المجالات من خلال تحسين معدل تقدم الطلاب والجودة والتحليل، ممكن يكتسب المدرسون معلومات حول أنماط تعلم طلابهم ومجالات التطوير المحتملة من خلال تحليل إجاباتهم والمدة التي يستغرقها إنهاء دروس التدريس</p>
         </div>
