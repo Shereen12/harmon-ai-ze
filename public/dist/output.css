@@ -613,8 +613,8 @@ video {
   height: 6rem;
 }
 
-.h-64 {
-  height: 16rem;
+.h-80 {
+  height: 20rem;
 }
 
 .h-max {
@@ -624,10 +624,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-80 {
-  height: 20rem;
 }
 
 .w-11\/12 {
@@ -796,6 +792,22 @@ video {
 
   .lg\:top-1\/4 {
     top: 25%;
+  }
+
+  .lg\:top-auto {
+    top: auto;
+  }
+
+  .lg\:top-\[5px\] {
+    top: 5px;
+  }
+
+  .lg\:top-\[50px\] {
+    top: 50px;
+  }
+
+  .lg\:top-\[25px\] {
+    top: 25px;
   }
 
   .lg\:m-4 {
