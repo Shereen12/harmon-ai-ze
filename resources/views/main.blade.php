@@ -30,7 +30,7 @@
                         <li id="categories-listItem" class="p-2" onclick="displayCategories('categories-listItem', 'hamburger')">Categories <img id="arrow" src="./pictures/arrow-down.png" class="float-right" onclick="rotateIcon()"/></li>
                     </ul>
             </div>
-                <div id="hamburger" class="hidden p-2 max-[768px]:flex" onclick="displayHumburgerMenu()">
+                <div id="hamburger" class="hidden p-2 max-[1023px]:flex" onclick="displayHumburgerMenu()">
                     <div class="mt-2">
                         <div class="w-7 border-b border-blue-900 m-2"></div>
                         <div class="w-7 border-b border-blue-900 m-2"></div>
@@ -41,11 +41,11 @@
                     </div>
                 </div>
 
-                <div class="w-96 h-24 mt-4 hidden mx-auto md:block">
+                <div class="w-96 h-24 mt-4 hidden mx-auto lg:block">
                     <img src="{{asset('/pictures/logo.jpeg')}}"/>
                 </div>
       
-                <nav id="nav" class="hidden mt:20 text-blue-900 border-b border-blue-900 md:block">
+                <nav id="nav" class="hidden mt:20 text-blue-900 border-b border-blue-900 lg:block">
                     <ul class="list-none cursor-pointer flex flex-row">
                         <li class="p-2 hover:text-white hover:bg-blue-900 hover:rounded">Latest</li>
                         <li class="p-2 hover:text-white hover:bg-blue-900 hover:rounded">Popular</li>

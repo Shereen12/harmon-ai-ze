@@ -779,8 +779,8 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-@media (max-width: 768px) {
-  .max-\[768px\]\:flex {
+@media (max-width: 1023px) {
+  .max-\[1023px\]\:flex {
     display: flex;
   }
 }
@@ -792,18 +792,6 @@ video {
 
   .lg\:top-1\/4 {
     top: 25%;
-  }
-
-  .lg\:top-auto {
-    top: auto;
-  }
-
-  .lg\:top-\[5px\] {
-    top: 5px;
-  }
-
-  .lg\:top-\[50px\] {
-    top: 50px;
   }
 
   .lg\:top-\[25px\] {
@@ -824,10 +812,6 @@ video {
 
   .lg\:flex {
     display: flex;
-  }
-
-  .lg\:h-64 {
-    height: 16rem;
   }
 
   .lg\:h-80 {
