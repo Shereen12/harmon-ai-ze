@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="ar">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
 
-                <div class="w-96 h-24 mt-4 hidden mx-auto lg:block">
+                <div class="w-1/3 h-max mt-4 hidden mx-auto lg:block">
                     <img src="{{asset('/pictures/logo.jpeg')}}"/>
                 </div>
       
@@ -55,6 +55,10 @@
             </header>
             <div id="content" class="p-4"> 
                 @yield('content')
+            </div>
+
+            <div class="w-24 h-24 float-right">
+                <img src="./pictures/small-logo.jpeg"/>
             </div>
         </div>
     </body>
