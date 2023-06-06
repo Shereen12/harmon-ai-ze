@@ -7,7 +7,7 @@
     </div>
 
     <div class="lg:m-4 lg:flex mb-4">
-        <div class="lg:w-1/3 w-11/12 max-w-lg h-max lg:h-80 border border-gray-300 rounded-lg p-4 m-4 bg-blue-900">
+        <div class="lg:w-1/3 w-11/12  h-max lg:h-80 border border-gray-300 rounded-lg p-4 m-4 bg-blue-900">
             <div class="lg:relative lg:top-1/4">
                 <a class="underline underline-offset-8 text-white text-2xl" href="https://www.ranked.ai/">Ranked</a>
                 <p class="mt-4 text-xl text-right font-cairo text-white">نجعل تحسين محرك البحث بسيطًا وبأسعار معقولة ، ومحتوى المدونة الأسبوعي ، والتحسين ، والروابط الخلفية ، وبرامج تحسين محركات البحث الرائدة</p>
