@@ -9,21 +9,21 @@
     </div>
 
     <div class="lg:m-4 lg:flex mb-4">
-        <div class="lg:w-1/3 w-11/12 max-w-lg h-max lg:h-64 border border-gray-300 rounded-lg p-4 m-4 bg-blue-900">
+        <div class="lg:w-1/3 w-11/12 max-w-lg h-max lg:h-80 border border-gray-300 rounded-lg p-4 m-4 bg-blue-900">
             <div class="lg:relative lg:top-1/4">
                 <a class="underline underline-offset-8 text-white text-2xl" href="https://imagecolorizer.com/">Imagecolorizer</a>
                 <p class="mt-4 text-xl text-right font-cairo text-white">رجع صور عائلتك القديمة وأعدها إلى الألوان، بيستخدم الموقع أحدث تقنيات الذكاء الاصطناعي لاستعادة الصور القديمة تلقائيًا وفوريً </p>
             </div>
         </div>
 
-        <div class="lg:w-1/3 w-11/12 h-max lg:h-64 border border-gray-300 rounded-lg p-4 m-4 bg-blue-900">
+        <div class="lg:w-1/3 w-11/12 h-max lg:h-80 border border-gray-300 rounded-lg p-4 m-4 bg-blue-900">
             <div class="lg:relative lg:top-1/4">
                 <a class="underline underline-offset-8 text-2xl text-white" href="https://imgcreator.zmo.ai/">IMGCreator</a>
                 <p class="mt-4 text-right font-cairo text-xl text-white">تقدر تفكر في أي حاجة خيالية والذكاء الاصطناعي هيحوله صورة</p>
             </div>
         </div>
 
-        <div class="lg:w-1/3 w-11/12 h-max lg:h-64 border border-gray-300 rounded-lg p-4 m-4 bg-blue-900">
+        <div class="lg:w-1/3 w-11/12 h-max lg:h-80 border border-gray-300 rounded-lg p-4 m-4 bg-blue-900">
             <div class="lg:relative lg:top-1/4">
                 <a class="underline underline-offset-8 text-2xl text-white"  href="https://www.kartiv.com/">Kartiv</a>
                 <p class="mt-4 text-right font-cairo text-xl text-white">استخدم الكلمات لإلهام مرئياتك، الموقع ده هو الطريقة الجديدة لإنشاء صور جميلة</p>

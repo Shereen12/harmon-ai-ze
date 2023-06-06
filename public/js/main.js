@@ -74,7 +74,7 @@ function addCategoriesListForDesktop(parentElement, data) {
 
 function addCategoriesListForMobile(parentElement, data) {
     $("#" + parentElement).append(`
-                <div id="categories-list" class="bg-blue-900 absolute top p-2 rounded">
+                <div id="categories-list" class="bg-blue-900 absolute top p-2 rounded h-max">
                     <ul id="categories-content" class="text-white"></ul>
                 </div>
             `);
