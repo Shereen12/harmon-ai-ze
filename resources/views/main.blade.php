@@ -41,11 +41,11 @@
                     </div>
                 </div>
 
-                <div class="w-96 h-24 mt-4 hidden mx-auto lg:block">
+                <div class="w-96 h-24 mt-4 hidden mx-auto md:block">
                     <img src="{{asset('/pictures/logo.jpeg')}}"/>
                 </div>
       
-                <nav id="nav" class="hidden mt:20 text-blue-900 border-b border-blue-900 lg:block">
+                <nav id="nav" class="hidden mt:20 text-blue-900 border-b border-blue-900 md:block">
                     <ul class="list-none cursor-pointer flex flex-row">
                         <li class="p-2 hover:text-white hover:bg-blue-900 hover:rounded">Latest</li>
                         <li class="p-2 hover:text-white hover:bg-blue-900 hover:rounded">Popular</li>
