@@ -1,8 +1,6 @@
 <?php
 
-use App\Http\Controllers\IndexController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CategoriesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,9 +13,10 @@ use App\Http\Controllers\CategoriesController;
 |
 */
 
-Route::get('/', [IndexController::class, 'index']);
 
-Route::get('/categories', [CategoriesController::class, 'getCategories']);
+Route::get('/', function () {
+    return view('index');
+});
 
 Route::get('/studying', function () {
     return view('Studying');
