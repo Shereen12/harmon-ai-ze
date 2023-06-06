@@ -38,7 +38,7 @@
                 <p class="mt-4 text-right font-cairo text-xl text-white"> إنه نظام ذكاء اصطناعي يمكنه إنشاء صور وفنون واقعية من وصف بلغة طبيعية</p>
             </div>
         </div>
-        <div class="lg:w-1/3 w-11/12 lg:h-max h-64 border border-gray-300 rounded-lg p-4 m-4 bg-blue-900">
+        <div class="lg:w-1/3 w-11/12 h-max lg:h-64 border border-gray-300 rounded-lg p-4 m-4 bg-blue-900">
             <div class="lg:relative lg:top-1/4">
                 <a class="underline underline-offset-8 text-2xl text-white" href="https://www.dreambox.com/">DreamBox</a>
                 <p class="mt-4 text-right font-cairo text-xl text-white">هو موقع يقوم بإنشاء وتوزيع برامج تعليمية لفصول الرياضيات في المدارس الابتدائية والمتوسطة</p>
