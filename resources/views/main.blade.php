@@ -9,9 +9,10 @@
         <title>{{$title}}</title>
 
         <!-- Fonts -->
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@600&family=Lato:ital,wght@0,300;1,100;1,300;1,700&family=Oswald:wght@200;700&display=swap" rel="stylesheet">    <body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
         <div class="container mx-auto">
             <header>
                 <div id="hamburger-menu" class="hidden bg-blue-900 w-full h-screen p-5">
