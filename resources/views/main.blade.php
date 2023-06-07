@@ -45,11 +45,18 @@
                     <img src="{{asset('/pictures/logo.jpeg')}}"/>
                 </div>
       
-                <nav id="nav" class="hidden mt:20 text-blue-900 border-b border-blue-900 lg:block">
-                    <ul class="list-none cursor-pointer flex flex-row">
+                <nav id="nav" class="mt:20 text-blue-900 border-b border-blue-900">
+                    <ul class="list-none cursor-pointer flex flex-row overflow-x-auto">
                         <li class="p-2 hover:text-white hover:bg-blue-900 hover:rounded">Latest</li>
                         <li class="p-2 hover:text-white hover:bg-blue-900 hover:rounded">Popular</li>
-                        <li class="p-2 hover:text-white hover:bg-blue-900 hover:rounded" id="nav-categories"  onmouseleave="hideCategories()" onmouseover="displayCategories('nav-categories', 'nav')">Categories</li>
+                        <li class="p-2 hover:text-white hover:bg-blue-900 hover:rounded"><a href="/studying">Studying</a></li>
+                        <li class="p-2 hover:text-white hover:bg-blue-900 hover:rounded"><a href="/coding">Coding</a></li>
+                        <li class="p-2 hover:text-white hover:bg-blue-900 hover:rounded"><a href="/presentations">Presentations</a></li>
+                        <li class="p-2 hover:text-white hover:bg-blue-900 hover:rounded whitespace-nowrap"><a href="/entertainment">Entertainment</a></li>
+                        <li class="p-2 hover:text-white hover:bg-blue-900 hover:rounded whitespace-nowrap"><a href="/content-creators">Content Creators</a></li>
+                        <li class="p-2 hover:text-white hover:bg-blue-900 hover:rounded whitespace-nowrap"><a href="/editing-and-design">Editing and Designs</a></li>
+                        <li class="p-2 hover:text-white hover:bg-blue-900 hover:rounded whitespace-nowrap"><a href="/business">Business</a></li>
+                        <li class="p-2 hover:text-white hover:bg-blue-900 hover:rounded whitespace-nowrap"><a href="/dubbing-and-subtitling">Dubbing and Subtitling</a></li>
                     </ul>
                 </nav>
             </header>
