@@ -1,6 +1,6 @@
 function displayCategories(parentElement, calledFrom) {
     if (calledFrom == "hamburger") {
-        if ($("#categories-list").length > 0) {
+        if (document.getElementById("categories-list")) {
             hideCategories("hamburger");
             return;
         }
@@ -41,45 +41,45 @@ function displayCategories(parentElement, calledFrom) {
         },
     ];
 
-    $("#arrow").addClass("rotate-180");
+    document.getElementById("arrow").classList.add("rotate-180");
 
     addCategoriesListForMobile(parentElement, categories);
 }
 
 function addCategoriesListForMobile(parentElement, data) {
-    $("#" + parentElement).append(`
+    document.getElementById(parentElement).innerHTML += `
                 <div id="categories-list" class="bg-blue-900 absolute top p-2 rounded h-max">
                     <ul id="categories-content" class="text-white"></ul>
                 </div>
-            `);
+            `;
     for (let i = 0; i < data.length; i++) {
         if (i < data.length - 1)
-            $("#categories-content").append(`
+            document.getElementById("categories-content").innerHTML += `
                         <li class="border-b b-white p-4"><a href="/${data[i].slug}">${data[i].name}</a></li>
-                    `);
+                    `;
         else
-            $("#categories-content").append(`
+            document.getElementById("categories-content").innerHTML += `
                 <li class="border-white p-4"><a href="/${data[i].slug}">${data[i].name}</a></li>
-            `);
+            `;
     }
 }
 
 function hideCategories(calledFrom) {
     if (calledFrom == "hamburger") {
-        $("#arrow").removeClass("rotate-180");
+        document.getElementById("arrow").classList.remove("rotate-180");
     }
 
-    $("#categories-list").remove();
+    document.getElementById("categories-list").remove();
 }
 
 function displayHumburgerMenu() {
-    $("#hamburger-menu").show();
-    $("#content").hide();
-    $("#hamburger").hide();
+    document.getElementById("hamburger-menu").style.display = "block";
+    document.getElementById("content").style.display = "none";
+    document.getElementById("hamburger").style.display = "none";
 }
 
 function closeSideMenu() {
-    $("#hamburger-menu").hide();
-    $("#content").show();
-    $("#hamburger").show();
+    document.getElementById("hamburger-menu").style.display = "none";
+    document.getElementById("content").style.display = "block";
+    document.getElementById("hamburger").style.display = "block";
 }
