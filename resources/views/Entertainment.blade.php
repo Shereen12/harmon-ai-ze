@@ -10,7 +10,7 @@
         <div class="lg:w-1/2 w-11/12  lg:h-80 h-max border border-gray-300 rounded-lg p-4 m-4 bg-blue-900">
             <div class="lg:relative lg:top-1/4">
                 <a class="underline underline-offset-8 text-white text-2xl" href="https://www.geoguessr.com/">Geogusser</a>
-                <p class="mt-4 text-xl text-right font-cairo text-white" style="direction: rtl">ممكن تلعب وفي النفس الوقت تكتشف العالم مع موقع   Geogusse، 
+                <p class="mt-4 text-xl text-right font-cairo text-white" style="direction: rtl">ممكن تلعب وفي النفس الوقت تكتشف العالم مع موقع   Geogusse،  
                     اللي بيساعدك تزرو اي مكان في العالم من خلال الألعاب!
                 </p>
             </div>
