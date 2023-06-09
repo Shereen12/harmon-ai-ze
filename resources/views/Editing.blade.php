@@ -63,7 +63,7 @@
         <div class="lg:w-1/3 w-11/12 h-max lg:h-80  border border-gray-300 rounded-lg p-4 m-4 bg-blue-900">
             <div class="lg:relative">
                 <a class="underline underline-offset-8 text-2xl text-white"   href="https://www.wisecut.video/">Wisecut</a>
-                <p class="mt-4 text-right font-cairo text-xl text-white" style="direction: rtl">أصبح إنشاء مقاطع الفيديو حكيماً ، الموقع دة عبارة عن برنامج تحرير فيديو تلقائي مم خلال الإنترنت بيستفيد من الذكاء الاصطناعي والتعرف على الصوت لتحرير مقاطع الفيديو ، وتسخير قوة الذكاء الاصطناعي لإنشاء مقاطع فيديو جذابة بسرعة البرق .</p>
+                <p class="mt-4 text-right font-cairo text-xl text-white" style="direction: rtl">أصبح إنشاء مقاطع الفيديو حكيماً ، الموقع دة عبارة عن برنامج تحرير فيديو تلقائي من خلال الإنترنت بيستفيد من الذكاء الاصطناعي والتعرف على الصوت لتحرير مقاطع الفيديو ، وتسخير قوة الذكاء الاصطناعي لإنشاء مقاطع فيديو جذابة بسرعة البرق .</p>
             </div>
         </div>
 
